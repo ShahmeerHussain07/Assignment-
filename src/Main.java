@@ -13,10 +13,8 @@ public class Main {
                 3
         );
 
-        student.displayStudent();
+        Registration registration = new Registration(student, course);
 
-        System.out.println();
-
-        course.displayCourse();
+        registration.displayRegistration();
     }
 }
